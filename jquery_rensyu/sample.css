@@ -1,0 +1,201 @@
+body{
+
+background-image: url("answer.jpg") ;
+  background-repeat:  no-repeat; 
+  background-position:center top 400px;
+  overflow-y: scroll;
+  background-color:#aaffff;
+}
+.title{
+color:#00ff00;
+width:300px;
+margin:auto;
+text-align:center; 
+font-size:50px;
+
+}
+.ans{
+width:210px;
+height:250px;
+
+top:-50px;
+left:75px;
+}
+
+.cat{
+text-align:center; 
+width:225px;
+height:165px;
+position:relative;
+top:0px;
+left:0px;
+}
+
+.link{
+font-size:25px;
+position:relative;
+width:200px;
+height:200px;
+top: -1000px;
+left:1100px;
+}
+.kingyo{
+width:225px;
+height:165px;
+position:relative;
+top:-100px;
+left:-225px;
+}
+
+.kirikae{
+width:225px;
+height:165px;
+position:relative;
+top:-220px;
+left:0px;
+
+}
+.rensyu{
+font-size:35px;
+color:red;
+}
+
+.hoge2B{
+background-color:#eeee44;
+}
+
+.hoge1{
+color:#333111;
+}
+
+.hoge3B{
+float:left;
+width:250px;
+}
+.hogehoge{
+width:250px;
+height:100px;
+background:#44eeee;
+display:table-cell;
+vertical-align:middle;
+}
+#box{
+width:60px;
+height:60px;
+}
+#box1{
+width:60px;
+height:60px;
+}
+#box2{
+width:60px;
+height:60px;
+}
+#box3{
+width:60px;
+height:60px;
+}
+#box4{
+width:60px;
+height:60px;
+}
+#box5{
+width:60px;
+height:60px;
+
+}
+
+.iti{
+position:relative;
+top: -575px;
+left:250px;
+}
+
+.sss{
+background-color:#eeee44;
+
+}
+
+.www{
+background-color:#44eeee;
+}
+
+#mainphoto {
+  width: 800px;
+  height: 400px;
+  padding: 0;
+  margin: -5px auto;
+  position: relative;  /*---基点とします。---*/
+  border: 5px solid #0066cc;
+  
+}
+/*---img 要素---*/
+#mainphoto img {
+
+  position: absolute;  /*---絶対配置します---*/
+  top: 0px;
+  left: 0px;
+
+
+}
+/*---写真のタイトルを表示する p 要素---*/
+p#title {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  right: 30px;
+  font-size: 11px;
+  color: #FFF;  
+}
+ 
+/*---表示する写真を記述しておく ul 要素---*/
+#photolist {
+  display: none;
+}
+
+#cli{
+position:absolute;
+top:400px;
+left:650px;
+font-size:20px;
+}
+
+#ttt{
+position:absolute;
+top:6000px;
+left:-500px;
+}
+
+#q{
+position:absolute;
+text-align:center; 
+top:1500px;
+left:-1000px;
+}
+
+#w{
+position:absolute;
+text-align:center; 
+top:3000px;
+left:-1000px;
+}
+
+#e{
+z-index: 1;
+position:absolute;
+text-align:center; 
+top:4500px;
+left:-1000px;
+background-color:#222333;
+}
+
+
+#rect {
+    position: relative;
+    left:-500px;
+    top:100px;
+    width:50px;
+    padding:10px 0px;
+    text-align:center;
+    color:#fff;
+}
